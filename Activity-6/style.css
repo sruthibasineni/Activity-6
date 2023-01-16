@@ -1,0 +1,68 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color: #fafafa;
+    margin: 200px;
+    box-sizing: rgb(0,0,.1);
+    display:grid;
+    grid-template-columns: 40% 60%;
+
+}
+.container-time{
+    background-color: rgb(0,0,.95);
+    padding: 50px;
+    outline:3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+.heading-days{
+    color: #998100;
+    font-size:30px;
+}
+.heading-phone{
+    font-size: 20px;
+}
+.form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000;
+}
+form {
+    display: grid;
+    grid-row-gap:20px;
+
+}
+.form p{
+    font-weight:600 ;
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}input,select{
+    pad:10px 15px;
+}
+
+.btn{
+    background-color: rgb(0,0,.95);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    
+}
+.btn:hover{
+    box-shadow: 7px 12px 12px rgba(0,0,0,.3);
+
+}
